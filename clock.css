@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+  text-align: center;
+  /* background: #00ECB9; */
+  font-family: sans-serif;
+  font-weight: 100;
+  font-family: "Roboto", helvetica, sans-serif;
+}
+
+h1 {
+  color: #1A1A1A;
+  font-weight: 900;
+  font-size: 40px;
+  margin: 40px 0px 20px;
+}
+.clock_style {
+  font-size: 72px;
+  font-weight: 900;
+  width: 100%;
+  display: inherit;
+}
+.seperator {
+  font-size: 72px;
+  width: 5%;
+  display: inline;
+}
+.clock_container {
+  color: #1A1A1A;
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: "Roboto", helvetica, sans-serif;
+}
+.smalltext {
+  width: 20%;
+  display: inline-block;
+}
+#clockdiv {
+  background-color: #1B2F67;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-image: url(images/countdown_banner.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 500px){
+  .clock_style {
+    font-size:42px;
+  }
+  .seperator {
+    font-size: 42px;
+  }
+}
