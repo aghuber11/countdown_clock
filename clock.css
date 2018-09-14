@@ -43,6 +43,10 @@ h1 {
   background-image: url(images/countdown_banner.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  visibility: visible;
+  opacity: 1;
+  transition: visibility 1s, opacity 0.5s linear;
+  background-position: 50%;
 }
 
 @media only screen and (max-width: 500px){
@@ -51,5 +55,8 @@ h1 {
   }
   .seperator {
     font-size: 42px;
+  }
+  #clockdiv {
+    background-position: 50%;
   }
 }

@@ -25,6 +25,7 @@ Initialize clock
 ================
 This is the initial function that runs. It accepts param 'clockdiv' and the var deadline from line 55 / 56
 This function will loop top to bottom if the condition t.total is not equal to 0 (when local time is the same as the deadline).
+when time.total is equal to 0 we clear the interval so the clock stops counting down
 */
 function initializeClock(id, endtime) {
   var clock = document.getElementById(id);
