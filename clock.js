@@ -57,5 +57,5 @@ function initializeClock(id, endtime) {
 // Set the date on the below line. This parses the date provided and sends it for use in calculateRemainingTime (line 8)
 //DOCUMENTATION FOR DATE OBJECT
 //https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date
-var deadline = new Date(Date.parse(new Date("September 14, 2018 11:30:00")));
+var deadline = new Date(Date.parse(new Date("September 31, 2018 11:30:00")));
 initializeClock('clockdiv', deadline);
